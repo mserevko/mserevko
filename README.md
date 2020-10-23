@@ -1,3 +1,6 @@
+### Hi there 👋
+
+'''python
 from dataclasses import dataclass
 from typing import Sequence
 
@@ -18,4 +21,4 @@ class Skills:
     code_quality: Sequence[str] = 'pylint'
     CI: Sequence[str] = 'jenkins'
     VCS: Sequence[str] = 'git', 'perforce'
-
+''''
