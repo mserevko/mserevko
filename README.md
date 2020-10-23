@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi 👋💻
 
 ```python
 from dataclasses import dataclass
@@ -21,4 +21,6 @@ class Skills:
     code_quality: Sequence[str] = 'pylint'
     CI: Sequence[str] = 'jenkins'
     VCS: Sequence[str] = 'git', 'perforce'
+    databases: Sequence[str] = 'PostgreSQL'
+
 ````
